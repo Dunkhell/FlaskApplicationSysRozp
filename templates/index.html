@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+{% block content %}
+
+<main class="main">
+	<h1>Welcome to our Flask web application!</h1>
+	<p>Our application provides the following functionalities:</p>
+	<ul class="nav-ul">
+		<li class="nav-li">Adding new user to database: You can add new users to our database by filling out a simple form. The form collects information such as the user's name and email. Once the form is submitted, the user's information is stored in the database.</li>
+		<li class="nav-li">Displaying existing users as a list: You can view a list of all the existing users in our database. The list displays each user's name and email.</li>
+		<li class="nav-li">Viewing embedded image and gif media: Our application supports the embedding of image and gif media. You can view the embedded media by navigating to the "Media" section of our application.</li>
+	</ul>
+</main>
+<footer class="nav-footer">
+	<p>Thank you for using our Flask web application!</p>
+</footer>
+{% endblock %}
